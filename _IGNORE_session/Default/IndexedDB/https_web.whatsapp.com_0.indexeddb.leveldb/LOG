@@ -1,0 +1,19 @@
+2022/11/19-16:02:16.375 38b90 Reusing MANIFEST /home/gustavo/www/Projects/whatsapp/figurinha/_IGNORE_session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/11/19-16:02:16.375 38b90 Recovering log #72
+2022/11/19-16:02:16.377 38b90 Reusing old log /home/gustavo/www/Projects/whatsapp/figurinha/_IGNORE_session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000072.log 
+2022/11/19-16:02:17.081 38bec Compacting 1@1 + 2@2 files
+2022/11/19-16:02:17.131 38bec Generated table #75@1: 30994 keys, 2221639 bytes
+2022/11/19-16:02:17.167 38bec Generated table #76@1: 33856 keys, 1455447 bytes
+2022/11/19-16:02:17.167 38bec Compacted 1@1 + 2@2 files => 3677086 bytes
+2022/11/19-16:02:17.169 38bec compacted to: files[ 0 0 2 0 0 0 0 ]
+2022/11/19-16:02:17.169 38bec Delete type=2 #73
+2022/11/19-16:02:17.169 38bec Delete type=2 #71
+2022/11/19-16:02:17.169 38bec Delete type=2 #70
+2022/11/19-16:02:30.197 38b8f Level-0 table #78: started
+2022/11/19-16:02:30.235 38b8f Level-0 table #78: 1212080 bytes OK
+2022/11/19-16:02:30.238 38b8f Delete type=0 #72
+2022/11/19-16:02:30.959 38b8f Compacting 1@1 + 2@2 files
+2022/11/19-16:02:31.024 38b8f Generated table #79@1: 28983 keys, 2203884 bytes
+2022/11/19-16:02:31.065 38b8f Generated table #80@1: 30974 keys, 1170723 bytes
+2022/11/19-16:02:31.065 38b8f Compacted 1@1 + 2@2 files => 3374607 bytes
+2022/11/19-16:02:31.076 38b8f compacted to: files[ 0 0 2 0 0 0 0 ]
