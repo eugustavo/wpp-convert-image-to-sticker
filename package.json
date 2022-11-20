@@ -12,5 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "@open-wa/wa-automate": "^4.50.2"
+  },
+  "devDependencies": {
+    "@types/mime-types": "^2.1.1"
   }
 }
