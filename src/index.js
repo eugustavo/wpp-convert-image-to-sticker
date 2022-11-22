@@ -1,5 +1,6 @@
 const { create } = require('@open-wa/wa-automate');
 const convertToSticker = require('./handle/convertToSticker');
+const convertToStickerWithoutBg = require('./handle/convertToStickerWithoutBg');
 
 const successMessage =
 `Obrigado por usar nosso bot de figurinhas 🥰
@@ -16,6 +17,15 @@ async function start(client) {
         await client.sendText(message.from, successMessage);
       } catch(err) {
         await client.sendText(message.from, 'Não foi encontrado nenhuma imagem, gif ou video para converter em figurinha.');
+        return
+      }  
+    }
+    if (message.text.includes('!semfundo')) {
+      try {
+        await convertToStickerWithoutBg(client, message);
+        await client.sendText(message.from, successMessage);
+      } catch(err) {
+        await client.sendText(message.from, 'Não foi encontrado nenhuma imagem para converter em figurinha.');
         return
       }  
     }

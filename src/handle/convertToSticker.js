@@ -8,7 +8,7 @@ const meta = {
 
 const videoOpts = {
   crop: false,
-  fps: 10,
+  fps: 20,
   loop: 0,
   log: true,
   startTime: '00:00:00.0',
@@ -34,7 +34,7 @@ const convertToSticker = async (client, message) => {
     }
   
     const mediaData = isMedia ? await decryptMedia(message.quotedMsg) : await decryptMedia(message);
-    await client.sendImageAsSticker(message.from, mediaData);
+    await client.sendImageAsSticker(message.from, mediaData, {...meta, cropPosition: 'center'});
   }
 }
 
