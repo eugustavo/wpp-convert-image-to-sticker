@@ -4,9 +4,14 @@ const convertToStickerWithoutBg = require('./handle/convertToStickerWithoutBg');
 
 const successMessage =
 `Obrigado por usar nosso bot de figurinhas 🥰
-Siga o autor nas redes socias 👇 \n
-Instagram: https://www.instagram.com/gustavosoouza
-Twitter: https://twitter.com/sogustavo_
+
+Ajude o bot a não sair do ar, doe qualquer valor para o PIX abaixo 👇
+`;
+
+const pixMessage =
+`*PIX*(Chave Aleatória)
+
+dd3e52a4-e167-4096-bced-23fd8645cfe4
 `;
 
 async function start(client) {
@@ -15,6 +20,7 @@ async function start(client) {
       try {
         await convertToSticker(client, message);
         await client.sendText(message.from, successMessage);
+        await client.sendText(message.from, pixMessage);
       } catch(err) {
         await client.sendText(message.from, 'Não foi encontrado nenhuma imagem, gif ou video para converter em figurinha.');
         return
@@ -24,6 +30,7 @@ async function start(client) {
       try {
         await convertToStickerWithoutBg(client, message);
         await client.sendText(message.from, successMessage);
+        await client.sendText(message.from, pixMessage);
       } catch(err) {
         await client.sendText(message.from, 'Não foi encontrado nenhuma imagem para converter em figurinha.');
         return
