@@ -1,34 +1,22 @@
-2022/11/25-09:28:00.227 491f Reusing MANIFEST /home/gustavo/www/Projects/whatsapp/figurinha/_IGNORE_session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/11/25-09:28:00.227 491f Recovering log #70
-2022/11/25-09:28:00.331 491f Reusing old log /home/gustavo/www/Projects/whatsapp/figurinha/_IGNORE_session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000070.log 
-2022/11/25-09:28:00.425 4921 Level-0 table #80: started
-2022/11/25-09:28:00.451 4921 Level-0 table #80: 1304253 bytes OK
-2022/11/25-09:28:00.455 4921 Delete type=0 #70
-2022/11/25-09:28:01.395 4921 Compacting 1@1 + 6@2 files
-2022/11/25-09:28:01.452 4921 Generated table #81@1: 35749 keys, 2229522 bytes
-2022/11/25-09:28:01.478 4921 Generated table #82@1: 2043 keys, 2151680 bytes
-2022/11/25-09:28:01.505 4921 Generated table #83@1: 1968 keys, 2153796 bytes
-2022/11/25-09:28:01.539 4921 Generated table #84@1: 10700 keys, 2179761 bytes
-2022/11/25-09:28:01.628 4921 Generated table #85@1: 32719 keys, 2277585 bytes
-2022/11/25-09:28:01.669 4921 Generated table #86@1: 39500 keys, 1188878 bytes
-2022/11/25-09:28:01.669 4921 Compacted 1@1 + 6@2 files => 12181222 bytes
-2022/11/25-09:28:01.674 4921 compacted to: files[ 0 0 6 0 0 0 0 ]
-2022/11/25-09:28:01.674 4921 Delete type=2 #73
-2022/11/25-09:28:01.674 4921 Delete type=2 #75
-2022/11/25-09:28:01.674 4921 Delete type=2 #77
-2022/11/25-09:28:01.674 4921 Delete type=2 #74
-2022/11/25-09:28:01.674 4921 Delete type=2 #80
-2022/11/25-09:28:01.674 4921 Delete type=2 #76
-2022/11/25-09:28:01.674 4921 Delete type=2 #72
-2022/11/25-09:28:14.337 491f Level-0 table #88: started
-2022/11/25-09:28:14.364 491f Level-0 table #88: 1161357 bytes OK
-2022/11/25-09:28:14.367 491f Delete type=0 #79
-2022/11/25-09:28:14.915 491f Compacting 1@1 + 6@2 files
-2022/11/25-09:28:14.970 491f Generated table #89@1: 27618 keys, 2197998 bytes
-2022/11/25-09:28:15.003 491f Generated table #90@1: 2047 keys, 2151418 bytes
-2022/11/25-09:28:15.025 491f Generated table #91@1: 1958 keys, 2154518 bytes
-2022/11/25-09:28:15.069 491f Generated table #92@1: 15513 keys, 2210311 bytes
-2022/11/25-09:28:15.121 491f Generated table #93@1: 35741 keys, 2250203 bytes
-2022/11/25-09:28:15.144 491f Generated table #94@1: 31236 keys, 703605 bytes
-2022/11/25-09:28:15.144 491f Compacted 1@1 + 6@2 files => 11668053 bytes
-2022/11/25-09:28:15.146 491f compacted to: files[ 0 0 6 0 0 0 0 ]
+2022/11/25-09:39:22.133 547f Reusing MANIFEST /home/gustavo/www/Projects/whatsapp/figurinha/_IGNORE_session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/11/25-09:39:22.133 547f Recovering log #87
+2022/11/25-09:39:22.187 547f Reusing old log /home/gustavo/www/Projects/whatsapp/figurinha/_IGNORE_session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000087.log 
+2022/11/25-09:39:22.187 547f Delete type=2 #88
+2022/11/25-09:39:22.187 547f Delete type=2 #85
+2022/11/25-09:39:22.187 547f Delete type=2 #81
+2022/11/25-09:39:22.187 547f Delete type=2 #86
+2022/11/25-09:39:22.187 547f Delete type=2 #84
+2022/11/25-09:39:22.187 547f Delete type=2 #83
+2022/11/25-09:39:22.187 547f Delete type=2 #82
+2022/11/25-09:39:38.495 547f Level-0 table #97: started
+2022/11/25-09:39:38.520 547f Level-0 table #97: 1211321 bytes OK
+2022/11/25-09:39:38.524 547f Delete type=0 #87
+2022/11/25-09:39:38.544 5480 Compacting 1@1 + 6@2 files
+2022/11/25-09:39:38.608 5480 Generated table #98@1: 29972 keys, 2207688 bytes
+2022/11/25-09:39:38.633 5480 Generated table #99@1: 2047 keys, 2151107 bytes
+2022/11/25-09:39:38.658 5480 Generated table #100@1: 1945 keys, 2154386 bytes
+2022/11/25-09:39:38.706 5480 Generated table #101@1: 14049 keys, 2199530 bytes
+2022/11/25-09:39:38.767 5480 Generated table #102@1: 30185 keys, 2253089 bytes
+2022/11/25-09:39:38.806 5480 Generated table #103@1: 44015 keys, 1045015 bytes
+2022/11/25-09:39:38.806 5480 Compacted 1@1 + 6@2 files => 12010815 bytes
+2022/11/25-09:39:38.810 5480 compacted to: files[ 0 0 6 0 0 0 0 ]
