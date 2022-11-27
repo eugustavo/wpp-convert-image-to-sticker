@@ -14,6 +14,8 @@ const pixMessage =
 dd3e52a4-e167-4096-bced-23fd8645cfe4
 `;
 
+const imageLink = 'https://user-images.githubusercontent.com/25755550/204143281-93d68b0e-1582-49c9-8d61-f503597dbb32.png';
+
 async function start(client) {
   await client.onAnyMessage(async (message) => {
     if (message.text.includes('!figurinha')) {
@@ -35,6 +37,9 @@ async function start(client) {
         await client.sendText(message.from, 'Não foi encontrado nenhuma imagem para converter em figurinha.');
         return
       }  
+    }
+    if (message.text.includes('!help')) {
+      await client.sendImage(message.from, imageLink, 'help.png', 'Comandos disponíveis no bot atualmente');
     }
   })
 }
