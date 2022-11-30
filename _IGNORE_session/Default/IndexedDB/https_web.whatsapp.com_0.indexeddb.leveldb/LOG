@@ -1,41 +1,17 @@
-2022/11/27-12:29:14.436 ec6a Reusing MANIFEST /home/gustavo/www/Projects/whatsapp/figurinha/_IGNORE_session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/11/27-12:29:14.436 ec6a Recovering log #63
-2022/11/27-12:29:14.495 ec6a Reusing old log /home/gustavo/www/Projects/whatsapp/figurinha/_IGNORE_session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000063.log 
-2022/11/27-12:29:14.558 ec6a Level-0 table #73: started
-2022/11/27-12:29:14.587 ec6a Level-0 table #73: 1392278 bytes OK
-2022/11/27-12:29:14.591 ec6a Delete type=0 #63
-2022/11/27-12:29:15.548 ec6a Compacting 1@1 + 6@2 files
-2022/11/27-12:29:15.606 ec6a Generated table #74@1: 32715 keys, 2198149 bytes
-2022/11/27-12:29:15.629 ec6a Generated table #75@1: 1696 keys, 2151447 bytes
-2022/11/27-12:29:15.653 ec6a Generated table #76@1: 1675 keys, 2150872 bytes
-2022/11/27-12:29:15.679 ec6a Generated table #77@1: 1895 keys, 2150045 bytes
-2022/11/27-12:29:15.788 ec6a Generated table #78@1: 23969 keys, 2265564 bytes
-2022/11/27-12:29:15.828 ec6a Generated table #79@1: 47803 keys, 1583330 bytes
-2022/11/27-12:29:15.828 ec6a Compacted 1@1 + 6@2 files => 12499407 bytes
-2022/11/27-12:29:15.831 ec6a compacted to: files[ 0 0 6 0 0 0 0 ]
-2022/11/27-12:29:15.831 ec6a Delete type=2 #73
-2022/11/27-12:29:15.831 ec6a Delete type=2 #65
-2022/11/27-12:29:15.831 ec6a Delete type=2 #70
-2022/11/27-12:29:15.831 ec6a Delete type=2 #67
-2022/11/27-12:29:15.831 ec6a Delete type=2 #69
-2022/11/27-12:29:15.831 ec6a Delete type=2 #68
-2022/11/27-12:29:15.831 ec6a Delete type=2 #66
-2022/11/27-12:29:37.262 ec80 Level-0 table #81: started
-2022/11/27-12:29:37.285 ec80 Level-0 table #81: 1102344 bytes OK
-2022/11/27-12:29:37.288 ec80 Delete type=0 #72
-2022/11/27-12:29:38.290 ec6a Compacting 1@1 + 6@2 files
-2022/11/27-12:29:38.367 ec6a Generated table #82@1: 28053 keys, 2205547 bytes
-2022/11/27-12:29:38.389 ec6a Generated table #83@1: 1708 keys, 2149768 bytes
-2022/11/27-12:29:38.413 ec6a Generated table #84@1: 1653 keys, 2149578 bytes
-2022/11/27-12:29:38.436 ec6a Generated table #85@1: 5503 keys, 2157786 bytes
-2022/11/27-12:29:38.491 ec6a Generated table #86@1: 24289 keys, 2270890 bytes
-2022/11/27-12:29:38.527 ec6a Generated table #87@1: 47454 keys, 1400659 bytes
-2022/11/27-12:29:38.527 ec6a Compacted 1@1 + 6@2 files => 12334228 bytes
-2022/11/27-12:29:38.529 ec6a compacted to: files[ 0 0 6 0 0 0 0 ]
-2022/11/27-12:29:38.529 ec6a Delete type=2 #75
-2022/11/27-12:29:38.529 ec6a Delete type=2 #77
-2022/11/27-12:29:38.529 ec6a Delete type=2 #78
-2022/11/27-12:29:38.529 ec6a Delete type=2 #74
-2022/11/27-12:29:38.529 ec6a Delete type=2 #81
-2022/11/27-12:29:38.529 ec6a Delete type=2 #79
-2022/11/27-12:29:38.529 ec6a Delete type=2 #76
+2022/11/30-14:05:10.445 40cde Reusing MANIFEST /home/gustavo/www/Projects/whatsapp/figurinha/_IGNORE_session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/11/30-14:05:10.445 40cde Recovering log #111
+2022/11/30-14:05:10.495 40cde Reusing old log /home/gustavo/www/Projects/whatsapp/figurinha/_IGNORE_session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000111.log 
+2022/11/30-14:05:10.495 40cde Delete type=2 #109
+2022/11/30-14:05:10.495 40cde Delete type=2 #110
+2022/11/30-14:05:10.495 40cde Delete type=2 #112
+2022/11/30-14:05:10.592 40ce0 Level-0 table #117: started
+2022/11/30-14:05:10.616 40ce0 Level-0 table #117: 1369337 bytes OK
+2022/11/30-14:05:10.619 40ce0 Delete type=0 #111
+2022/11/30-14:05:11.564 40cde Compacting 1@1 + 2@2 files
+2022/11/30-14:05:11.625 40cde Generated table #118@1: 32875 keys, 2196220 bytes
+2022/11/30-14:05:11.665 40cde Generated table #119@1: 37689 keys, 1723998 bytes
+2022/11/30-14:05:11.665 40cde Compacted 1@1 + 2@2 files => 3920218 bytes
+2022/11/30-14:05:11.667 40cde compacted to: files[ 0 0 2 0 0 0 0 ]
+2022/11/30-14:05:11.667 40cde Delete type=2 #114
+2022/11/30-14:05:11.667 40cde Delete type=2 #117
+2022/11/30-14:05:11.667 40cde Delete type=2 #113
