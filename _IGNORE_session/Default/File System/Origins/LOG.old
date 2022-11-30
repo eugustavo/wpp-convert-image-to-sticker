@@ -1,3 +1,2 @@
-2022/11/30-14:03:25.309 40896 Reusing MANIFEST /home/gustavo/www/Projects/whatsapp/figurinha/_IGNORE_session/Default/File System/Origins/MANIFEST-000001
-2022/11/30-14:03:25.309 40896 Recovering log #3
-2022/11/30-14:03:25.309 40896 Reusing old log /home/gustavo/www/Projects/whatsapp/figurinha/_IGNORE_session/Default/File System/Origins/000003.log 
+2022/11/30-16:21:36.781 48668 Creating DB /home/gustavo/www/Projects/whatsapp/figurinha/_IGNORE_session/Default/File System/Origins since it was missing.
+2022/11/30-16:21:36.790 48668 Reusing MANIFEST /home/gustavo/www/Projects/whatsapp/figurinha/_IGNORE_session/Default/File System/Origins/MANIFEST-000001

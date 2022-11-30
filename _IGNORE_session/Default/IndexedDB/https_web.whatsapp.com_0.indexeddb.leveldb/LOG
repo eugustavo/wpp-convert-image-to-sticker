@@ -1,17 +1,25 @@
-2022/11/30-14:05:10.445 40cde Reusing MANIFEST /home/gustavo/www/Projects/whatsapp/figurinha/_IGNORE_session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/11/30-14:05:10.445 40cde Recovering log #111
-2022/11/30-14:05:10.495 40cde Reusing old log /home/gustavo/www/Projects/whatsapp/figurinha/_IGNORE_session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000111.log 
-2022/11/30-14:05:10.495 40cde Delete type=2 #109
-2022/11/30-14:05:10.495 40cde Delete type=2 #110
-2022/11/30-14:05:10.495 40cde Delete type=2 #112
-2022/11/30-14:05:10.592 40ce0 Level-0 table #117: started
-2022/11/30-14:05:10.616 40ce0 Level-0 table #117: 1369337 bytes OK
-2022/11/30-14:05:10.619 40ce0 Delete type=0 #111
-2022/11/30-14:05:11.564 40cde Compacting 1@1 + 2@2 files
-2022/11/30-14:05:11.625 40cde Generated table #118@1: 32875 keys, 2196220 bytes
-2022/11/30-14:05:11.665 40cde Generated table #119@1: 37689 keys, 1723998 bytes
-2022/11/30-14:05:11.665 40cde Compacted 1@1 + 2@2 files => 3920218 bytes
-2022/11/30-14:05:11.667 40cde compacted to: files[ 0 0 2 0 0 0 0 ]
-2022/11/30-14:05:11.667 40cde Delete type=2 #114
-2022/11/30-14:05:11.667 40cde Delete type=2 #117
-2022/11/30-14:05:11.667 40cde Delete type=2 #113
+2022/11/30-16:22:50.313 489ee Reusing MANIFEST /home/gustavo/www/Projects/whatsapp/figurinha/_IGNORE_session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/11/30-16:22:50.313 489ee Recovering log #20
+2022/11/30-16:22:50.431 489ee Reusing old log /home/gustavo/www/Projects/whatsapp/figurinha/_IGNORE_session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000020.log 
+2022/11/30-16:22:50.510 489fd Level-0 table #26: started
+2022/11/30-16:22:50.539 489fd Level-0 table #26: 1336130 bytes OK
+2022/11/30-16:22:50.543 489fd Delete type=0 #20
+2022/11/30-16:22:51.487 489eb Compacting 1@1 + 2@2 files
+2022/11/30-16:22:51.554 489eb Generated table #27@1: 30950 keys, 2220277 bytes
+2022/11/30-16:22:51.598 489eb Generated table #28@1: 37322 keys, 1538511 bytes
+2022/11/30-16:22:51.598 489eb Compacted 1@1 + 2@2 files => 3758788 bytes
+2022/11/30-16:22:51.600 489eb compacted to: files[ 0 0 2 0 0 0 0 ]
+2022/11/30-16:22:51.600 489eb Delete type=2 #22
+2022/11/30-16:22:51.600 489eb Delete type=2 #23
+2022/11/30-16:22:51.600 489eb Delete type=2 #26
+2022/11/30-16:23:07.198 48a01 Level-0 table #30: started
+2022/11/30-16:23:07.229 48a01 Level-0 table #30: 1171712 bytes OK
+2022/11/30-16:23:07.232 48a01 Delete type=0 #25
+2022/11/30-16:23:07.461 489ee Compacting 1@1 + 2@2 files
+2022/11/30-16:23:07.511 489ee Generated table #31@1: 28789 keys, 2205163 bytes
+2022/11/30-16:23:07.542 489ee Generated table #32@1: 35346 keys, 1263950 bytes
+2022/11/30-16:23:07.542 489ee Compacted 1@1 + 2@2 files => 3469113 bytes
+2022/11/30-16:23:07.544 489ee compacted to: files[ 0 0 2 0 0 0 0 ]
+2022/11/30-16:23:07.544 489ee Delete type=2 #28
+2022/11/30-16:23:07.544 489ee Delete type=2 #27
+2022/11/30-16:23:07.544 489ee Delete type=2 #30

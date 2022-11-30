@@ -1,4 +1,4 @@
-# fly.toml file generated for wpp-bot on 2022-11-30T13:27:23-03:00
+# fly.toml file generated for wpp-bot on 2022-11-30T16:05:44-03:00
 
 app = "wpp-bot"
 kill_signal = "SIGINT"
@@ -6,6 +6,7 @@ kill_timeout = 5
 processes = []
 
 [env]
+  PORT = "8080"
 
 [experimental]
   allowed_public_ports = []

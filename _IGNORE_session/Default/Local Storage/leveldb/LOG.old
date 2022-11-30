@@ -1,3 +1,2 @@
-2022/11/30-14:03:24.887 40895 Reusing MANIFEST /home/gustavo/www/Projects/whatsapp/figurinha/_IGNORE_session/Default/Local Storage/leveldb/MANIFEST-000001
-2022/11/30-14:03:24.888 40895 Recovering log #3
-2022/11/30-14:03:24.888 40895 Reusing old log /home/gustavo/www/Projects/whatsapp/figurinha/_IGNORE_session/Default/Local Storage/leveldb/000003.log 
+2022/11/30-16:21:35.444 48661 Creating DB /home/gustavo/www/Projects/whatsapp/figurinha/_IGNORE_session/Default/Local Storage/leveldb since it was missing.
+2022/11/30-16:21:35.453 48661 Reusing MANIFEST /home/gustavo/www/Projects/whatsapp/figurinha/_IGNORE_session/Default/Local Storage/leveldb/MANIFEST-000001
