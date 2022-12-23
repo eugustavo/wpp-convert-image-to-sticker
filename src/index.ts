@@ -1,13 +1,14 @@
 import { create, Client, Message } from "@open-wa/wa-automate";
-import { imageToSticker } from "./handle/imageToSticker";
+import { Converter } from "./core";
 
-const COMMANDS = ["!figurinha", "!sticker"];
+const COMMANDS = ["!figurinha", "!sticker", "Q"];
 
 async function start(client: Client) {
   await client.onAnyMessage(async (message: Message) => {
     if (COMMANDS.includes(message.text)) {
       try {
-        await imageToSticker(client, message);
+        const converter = new Converter(client, message)
+        await converter.convert()
       } catch (err) {
         await client.sendText(
           message.from,
@@ -19,4 +20,9 @@ async function start(client: Client) {
   });
 }
 
-create({ qrTimeout: 0 }).then(start);
+const main = async () => {
+  const client = await create({qrTimeout: 0})
+  start(client)
+}
+
+main()

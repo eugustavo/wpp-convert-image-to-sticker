@@ -6,3 +6,9 @@
 **.node-persist**
 **_IGNORE_**
 # end managed
+
+dist
+tsconfig.tsbuildinfo
+
+yarn.lock
+yarn-error.log
