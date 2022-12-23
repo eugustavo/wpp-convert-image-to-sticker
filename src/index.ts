@@ -1,7 +1,7 @@
 import { create, Client, Message } from "@open-wa/wa-automate";
 import { Converter } from "./core";
 
-const COMMANDS = ["!figurinha", "!sticker", "Q"];
+const COMMANDS = ["!figurinha", "!sticker"];
 
 async function start(client: Client) {
   await client.onAnyMessage(async (message: Message) => {
