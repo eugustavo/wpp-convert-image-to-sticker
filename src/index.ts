@@ -5,6 +5,7 @@ const COMMANDS = ['!figurinha', '!sticker', '!gif', '!semfundo', 'Q'];
 
 async function start (client: Client) {
   await client.onAnyMessage(async (message: Message) => {
+    console.log('Bot iniciado com sucesso!')
     if (COMMANDS.includes(message.text)) {
       try {
         const converter = new Converter(client, message)

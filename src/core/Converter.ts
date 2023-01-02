@@ -25,7 +25,6 @@ export class Converter {
   }
 
   async videoToGif (media: Media){
-    console.log('chegou, ',this.videoOpts)
     await this.client.sendMp4AsSticker(this.message.from, media, this.videoOpts);
     return
   }
