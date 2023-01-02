@@ -1,29 +1,55 @@
-import { decryptMedia, Client, Message } from "@open-wa/wa-automate";
-import { Media } from "./types/Image";
+import { decryptMedia, Client, Message } from '@open-wa/wa-automate';
+import { Media, Meta, VideoOpts } from './types';
 
 export class Converter {
-  constructor(readonly client: Client, readonly message: Message){}
+  private meta: Meta = {
+    author: 'Lucas Bastos',
+    pack: 'Sticker Bot - by',
+    keepScale: true
+  };
 
-  async getMedia(media: Message){
+  private videoOpts: VideoOpts = {
+    startTime: '00:00:00.0',
+    endTime: '00:00:05.0'
+  }   
+
+  constructor (readonly client: Client, readonly message: Message){}
+
+  async getMedia (media: Message){
     return await decryptMedia(media);
   }
 
   async imageToSticker (media: Media) {
     await this.client.sendImageAsSticker(this.message.from, media);
-  };
-
-  async videoToGif(media: Media){
-    await this.client.sendMp4AsSticker(this.message.from, media);
+    return
   }
 
-  async convert(){
+  async videoToGif (media: Media){
+    console.log('chegou, ',this.videoOpts)
+    await this.client.sendMp4AsSticker(this.message.from, media, this.videoOpts);
+    return
+  }
+
+  async removeBackground (media: Media){
+    const meta: Meta =  {
+      ...this.meta,
+      cropPosition: 'center',
+      removebg: true,
+    };
+    await this.client.sendImageAsSticker(this.message.from, media, meta);  
+    return
+  }
+
+  async convert (){
     const media = this.message.quotedMsg ?? this.message;
 
-    if(!media) throw new Error("No message found")
+    if(!media) throw new Error('No message found')
 
     const decriptedMedia = await this.getMedia(media)
-
-    if (media.mimetype?.includes('video/mp4')){
+    if(this.message.text === '!semfundo'){
+      await this.removeBackground(decriptedMedia)
+    }
+    else if (media.mimetype?.includes('video/mp4')){
       await this.videoToGif(decriptedMedia)
     } else {
       await this.imageToSticker(decriptedMedia)
