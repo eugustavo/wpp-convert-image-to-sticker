@@ -1,16 +1,17 @@
 import { decryptMedia, Client, Message } from '@open-wa/wa-automate';
-import { Media, Meta, VideoOpts } from './types';
+import { CropPositionEnum, Media, Meta, VideoOpts } from './types';
 
 export class Converter {
   private meta: Meta = {
     author: 'Lucas Bastos',
     pack: 'Sticker Bot - by',
-    keepScale: true
+    keepScale: true,
+    cropPosition: CropPositionEnum.center,
   };
 
   private videoOpts: VideoOpts = {
     startTime: '00:00:00.0',
-    endTime: '00:00:05.0'
+    endTime: '00:00:10.0'
   }   
 
   constructor (readonly client: Client, readonly message: Message){}
@@ -20,7 +21,7 @@ export class Converter {
   }
 
   async imageToSticker (media: Media) {
-    await this.client.sendImageAsSticker(this.message.from, media);
+    await this.client.sendImageAsSticker(this.message.from, media, this.meta);
     return
   }
 
@@ -32,7 +33,7 @@ export class Converter {
   async removeBackground (media: Media){
     const meta: Meta =  {
       ...this.meta,
-      cropPosition: 'center',
+      cropPosition: CropPositionEnum.center,
       removebg: true,
     };
     await this.client.sendImageAsSticker(this.message.from, media, meta);  

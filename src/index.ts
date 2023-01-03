@@ -1,11 +1,11 @@
 import { create, Client, Message } from '@open-wa/wa-automate';
 import { Converter } from './core';
 
-const COMMANDS = ['!figurinha', '!sticker', '!gif', '!semfundo'];
+const COMMANDS = ['!figurinha', '!sticker', '!gif', '!semfundo', 'Q'];
 
 async function start (client: Client) {
+  console.log('Bot iniciado com sucesso!')
   await client.onAnyMessage(async (message: Message) => {
-    console.log('Bot iniciado com sucesso!')
     if (COMMANDS.includes(message.text)) {
       try {
         const converter = new Converter(client, message)

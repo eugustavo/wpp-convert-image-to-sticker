@@ -1,6 +1,6 @@
-# fly.toml file generated for proud-field-1612 on 2023-01-02T19:18:48-03:00
+# fly.toml file generated for cold-dust-9900 on 2023-01-03T09:14:22-03:00
 
-app = "proud-field-1612"
+app = "cold-dust-9900"
 kill_signal = "SIGINT"
 kill_timeout = 5
 processes = []
