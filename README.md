@@ -9,6 +9,8 @@ Sinta-se a vontade para doar qualquer quantia via pix. ♥
 
 *PIX*: 4c432df3-8b6b-4496-a83f-7b6c59615cde
 
+*PIX*: dd3e52a4-e167-4096-bced-23fd8645cfe4
+
 *Todo valor recebido irá ser investido na hospedagem do bot* 
 ## Run Locally
 
