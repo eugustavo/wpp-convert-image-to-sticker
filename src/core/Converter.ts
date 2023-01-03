@@ -26,7 +26,7 @@ export class Converter {
   }
 
   async videoToGif (media: Media){
-    await this.client.sendMp4AsSticker(this.message.from, media, this.videoOpts);
+    await this.client.sendMp4AsSticker(this.message.from, media, this.videoOpts, this.meta);
     return
   }
 
