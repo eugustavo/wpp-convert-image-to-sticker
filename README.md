@@ -43,12 +43,6 @@ Start the server
 
 I did learn while building this project how the lib open-wa works and how easy is to make this kind of feature
 
-
-## Demo
-
-Insert gif or link to demo
-
-
 ## Authors
 
 - [@eugustavo](https://www.github.com/eugustavo)
@@ -56,9 +50,6 @@ Insert gif or link to demo
 
 
 ## Commands 
-
-#### Get all items
-
 
 | Command | Payload     | Description                |
 | :-------- | :------- | :------------------------- |
