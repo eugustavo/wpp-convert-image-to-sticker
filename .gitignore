@@ -1,2 +1,14 @@
 /node_modules/
 /_IGNORE_session/
+
+# managed
+**.data.json
+**.node-persist**
+**_IGNORE_**
+# end managed
+
+dist
+tsconfig.tsbuildinfo
+
+yarn.lock
+yarn-error.log
