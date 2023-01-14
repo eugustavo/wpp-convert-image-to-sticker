@@ -1,6 +1,6 @@
-# fly.toml file generated for crimson-bird-2785 on 2023-01-03T09:14:22-03:00
+# fly.toml file generated for fragrant-river-5109 on 2023-01-13T22:04:48-03:00
 
-app = "crimson-bird-2785"
+app = "fragrant-river-5109"
 kill_signal = "SIGINT"
 kill_timeout = 5
 processes = []
