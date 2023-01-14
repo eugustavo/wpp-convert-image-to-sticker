@@ -1,6 +1,6 @@
-# fly.toml file generated for cold-dust-9900 on 2023-01-03T09:14:22-03:00
+# fly.toml file generated for crimson-bird-2785 on 2023-01-03T09:14:22-03:00
 
-app = "cold-dust-9900"
+app = "crimson-bird-2785"
 kill_signal = "SIGINT"
 kill_timeout = 5
 processes = []
