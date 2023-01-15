@@ -21,6 +21,7 @@ async function start (client: Client) {
       const isBlackListed = BLACK_LIST.some(number => {
         return message.from.startsWith(number)
       })
+      const logger = new Logger(message.body, message.from)
       try {
         if (hasCommand) {
           if (message.text === '!help') {
@@ -30,12 +31,14 @@ async function start (client: Client) {
             }
             const helper = new Helper(client, message)
             await helper.execute()
+            logger.log()
           }
           else {
             const converter = new Converter(client, message)
             await converter.convert()
             await client.sendText(message.from, successMessage);
             await client.sendText(message.from, pixMessage);
+            logger.log()
           }
           return
         }
@@ -44,8 +47,7 @@ async function start (client: Client) {
           message.from,
           'Não foi possivel converter o arquivo enviado em figurinha, tente novamente.'
         );
-        const logger = new Logger(message.body, message.from, err)
-        logger.log()
+        logger.log(err)
         // new Database().disconnect()
         return;
       }
