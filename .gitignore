@@ -1,6 +1,6 @@
 /node_modules/
 /_IGNORE_session/
-
+.env
 # managed
 **.data.json
 **.node-persist**
