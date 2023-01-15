@@ -3,6 +3,7 @@ import { Converter } from './core';
 import { Helper } from './core/Helper';
 
 const COMMANDS = ['!figurinha', '!sticker', '!gif', '!semfundo', '!help'];
+const BLACK_LIST = ['556392785687']
 const successMessage = `
 Se gostou das funcionalidades ajude a manter o bot online fazendo uma doação de qualquer valor:
 *PIX:* 
@@ -11,11 +12,19 @@ const pixMessage = '4c432df3-8b6b-4496-a83f-7b6c59615cde'
 async function start (client: Client) {
   console.log('Bot iniciado com sucesso!')
   await client.onAnyMessage(async (message: Message) => {
-
+      const hasCommand = COMMANDS.some(command => {
+        return message.text.startsWith(command)
+      })
+      const isBlackListed = BLACK_LIST.some(number => {
+        return message.from.startsWith(number)
+      })
       try {
-        if (COMMANDS.includes(message.text)) {
+        if (hasCommand) {
           if (message.text === '!help') {
-            console.log('help message')
+            if(isBlackListed){
+              await client.sendText(message.from, 'VSF TONI')
+              return
+            }
             const helper = new Helper(client, message)
             await helper.execute()
           }
@@ -26,7 +35,7 @@ async function start (client: Client) {
             await client.sendText(message.from, pixMessage);
           }
           return
-        }  
+        }
       } catch (err) {
         await client.sendText(
           message.from,

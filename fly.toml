@@ -1,6 +1,6 @@
-# fly.toml file generated for fragrant-river-5109 on 2023-01-13T22:04:48-03:00
+# fly.toml file generated for delicate-thunder-5466 on 2023-01-13T22:15:23-03:00
 
-app = "fragrant-river-5109"
+app = "delicate-thunder-5466"
 kill_signal = "SIGINT"
 kill_timeout = 5
 processes = []
