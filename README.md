@@ -1,6 +1,7 @@
 
 # Whatsapp Bot - Sticker By
 
+
 Bot criado para converter imagens ou videos em stickers
 
 ## Support
@@ -38,10 +39,15 @@ Start the server
   npm run start
 ```
 
+## Tutorial de como utilizar o bot depois de executar o projeto:
+### Tutorial de como criar figurinha
+![criar figurinha](https://figurinha.s3.us-east-1.amazonaws.com/figurinha_1.png)
+![criar figurinha](https://figurinha.s3.us-east-1.amazonaws.com/figurinha.png)
+### Tutorial de como remover fundo de imagem
+![remover fundo](https://figurinha.s3.us-east-1.amazonaws.com/semfundo.png)
+### Tutorial de como criar gif animado
+![criar gif](https://figurinha.s3.us-east-1.amazonaws.com/gif.png)
 
-## Lessons Learned
-
-I did learn while building this project how the lib open-wa works and how easy is to make this kind of feature
 
 ## Authors
 
@@ -56,5 +62,6 @@ I did learn while building this project how the lib open-wa works and how easy i
 | `!sticker` | `image // video` | converte em sticker ou gif |
 | `!figurinha` | `image // video` | converte em sticker ou gif |
 | `!semfundo` | `image` | remove o fundo e converte em sticker |
+| `!help` | `` | Apresenta um tutorial de como utilizar os comandos acima |
 
 PS: Só é suportado arquivos de até 1.5MB 
